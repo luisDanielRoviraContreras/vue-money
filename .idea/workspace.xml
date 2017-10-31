@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da963b5b-6bce-4499-922e-e921dc7baf56" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+            <state relative-caret-position="247">
+              <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -41,9 +43,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -135,12 +138,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509479845943</updated>
       <workItem from="1509479847098" duration="189000" />
-      <workItem from="1509480042306" duration="341000" />
+      <workItem from="1509480042306" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="530000" />
+    <option name="totallyTimeSpent" value="784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="31" width="1924" height="1051" extended-state="6" />
@@ -179,24 +182,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <marker date="1509480190375" expanded="true" signature="53:1942" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="90:946" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="111:397" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="435:744" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="489:605" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="661:738" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="798:942" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="824:854" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1010:1270" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1048:1068" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1154:1198" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1315:1725" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1369:1423" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1456:1536" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1762:1940" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1790:1919" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -208,31 +194,6 @@
             <marker date="1509480129204" expanded="true" signature="17:246" ph="{&quot;parser&quot;: 'babel-eslint'...}" />
             <marker date="1509480129204" expanded="true" signature="66:89" ph="{...}" />
             <marker date="1509480129204" expanded="true" signature="204:229" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1509480190375" expanded="true" signature="53:1942" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="90:946" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="111:397" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="435:744" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="489:605" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="661:738" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="798:942" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="824:854" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1010:1270" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1048:1068" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1154:1198" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1315:1725" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1369:1423" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1456:1536" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1762:1940" ph="{...}" />
-            <marker date="1509480190375" expanded="true" signature="1790:1919" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -249,6 +210,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <marker date="1509480382010" expanded="true" signature="0:533" ph="{&quot;name&quot;: &quot;vue-money&quot;...}" />
+            <marker date="1509480382010" expanded="true" signature="247:531" ph="{&quot;babel-eslint&quot;: &quot;^8.0.1&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
           <folding />
         </state>
       </provider>

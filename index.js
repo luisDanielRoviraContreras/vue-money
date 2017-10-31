@@ -58,3 +58,5 @@ export const Money = {
     return value
   }
 }
+
+export default Money
