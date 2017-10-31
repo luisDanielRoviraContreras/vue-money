@@ -6,7 +6,8 @@ export const Money = {
       places: options && options.places ? options.places : 2,
       symbol: options && options.symbol ? options.symbol : '$',
       format: options && options.format ? options.format : /%money%/,
-      directive: options && options.directive ? options.directive : 'money-format'
+      directive: options && options.directive ? options.directive : 'money-format',
+      global: options && options.global ? options.global : 'moneyFormat'
     }
 
     Vue.directive(config.directive, {
@@ -18,8 +19,7 @@ export const Money = {
         el.innerHTML = Money.formatMoney(el, binding.value, config)
       }
     })
-
-    Vue.prototype.$money_format = function (value) {
+    Vue.prototype[`$${config.global}`] = function (value) {
       if (isNaN(value)) {
         return value
       }
