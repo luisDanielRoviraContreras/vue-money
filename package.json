@@ -7,8 +7,13 @@
   "license": "MIT",
   "private": false,
   "homepage": "https://github.com/apexJCL/vue-money",
+  "scripts": {
+    "build": "babel index.js --out-file money.js"
+  },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.1",
+    "babel-preset-env": "^1.6.1",
     "eslint": "^4.10.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.9.0",
