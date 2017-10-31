@@ -6,6 +6,7 @@
   "author": "apexjcl",
   "license": "MIT",
   "private": false,
+  "homepage": "https://github.com/apexJCL/vue-money",
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^4.10.0",
