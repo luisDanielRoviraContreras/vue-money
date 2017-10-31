@@ -22,12 +22,13 @@ const config = {
   places: 2,
   symbol: '$',
   format: /%money%/,
-  directive: 'money-format'
+  directive: 'money-format',
+  global: 'moneyFormat'
 }
 ```
 
 This will make the plugin available via the directive `v-money-format` or the global method
-`this.$money_format`.
+`this.$moneyFormat`.
 
 ## Usage:
 
