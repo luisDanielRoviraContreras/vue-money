@@ -1,6 +1,6 @@
 {
   "name": "vue-money",
-  "version": "0.0.41",
+  "version": "0.0.42",
   "description": "Money format plugin",
   "main": "money.js",
   "author": "apexjcl",
@@ -8,8 +8,8 @@
   "private": false,
   "homepage": "https://github.com/apexJCL/vue-money",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/apexJCL/vue-money.git"
+    "type": "git",
+    "url": "https://github.com/apexJCL/vue-money.git"
   },
   "scripts": {
     "build": "babel index.js --out-file money.js"
