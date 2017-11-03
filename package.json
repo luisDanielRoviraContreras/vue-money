@@ -7,6 +7,10 @@
   "license": "MIT",
   "private": false,
   "homepage": "https://github.com/apexJCL/vue-money",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/apexJCL/vue-money.git"
+  },
   "scripts": {
     "build": "babel index.js --out-file money.js"
   },
