@@ -20,7 +20,7 @@ export const Money = {
       }
     })
     Vue.prototype[`$${config.global}`] = function (value) {
-      if (isNaN(value)) {
+      if (isNaN(value) || value === null) {
         return value
       }
       return Money.format(value.toFixed(config.places).toString(), config.symbol)
@@ -28,7 +28,7 @@ export const Money = {
   },
   formatMoney: function (el, value, {places, format, symbol}) {
     let v = value
-    if (isNaN(v)) {
+    if (isNaN(v) || v === null) {
       return
     }
     v = Number(v).toFixed(places).toString()
