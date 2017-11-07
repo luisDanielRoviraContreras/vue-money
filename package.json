@@ -1,8 +1,8 @@
 {
   "name": "vue-money",
-  "version": "0.0.42",
+  "version": "0.0.5",
   "description": "Money format plugin",
-  "main": "money.js",
+  "main": "index.js",
   "author": "apexjcl",
   "license": "MIT",
   "private": false,
