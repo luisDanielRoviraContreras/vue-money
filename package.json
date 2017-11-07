@@ -12,7 +12,7 @@
     "url": "https://github.com/apexJCL/vue-money.git"
   },
   "scripts": {
-    "build": "babel index.js --out-file money.js"
+    "build": "babel src/index.js --out-file index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
