@@ -5,7 +5,11 @@ given number to a comma separated values. It may lack some stuff, or have seriou
 
 ## How to use
 
-`yarn add vue-money`
+```md
+# Install
+
+yarn add vue-money # OR dddnstall vue-money
+```
 
 Then:
 
